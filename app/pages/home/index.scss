@@ -1,0 +1,15 @@
+$color: green;
+
+li{
+	list-style-type: none;
+}
+
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h1 {
+		color: $color;
+	}
+}

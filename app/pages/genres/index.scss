@@ -1,0 +1,21 @@
+$color: green;
+
+.home {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+	h1 {
+		color: $color;
+	}
+}
+
+.list-movie-genre{
+	text-align: center;
+
+	.list-movie{
+		display: inline-block;
+		vertical-align: top;
+		width: 33.3%;
+	}
+}
